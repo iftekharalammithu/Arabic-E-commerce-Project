@@ -1,13 +1,11 @@
-import Home from "../Pages/Home/Home";
-import "./App.css";
+// import "./App.css";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
-    <>
-      <h1 className="text-red-400">sdfsd</h1>
-      <p className="bg-sky-500">mmm</p>
+    <div className="mt-8 mx-24">
       <Home></Home>
-    </>
+    </div>
   );
 }
 

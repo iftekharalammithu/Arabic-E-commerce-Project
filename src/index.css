@@ -5,10 +5,15 @@
 
 :root {
   font-family: "Almarai";
-  margin: 0 48px;
-  border: 1px solid red;
+  /* margin: 0 48px; */
+  /* border: 1px solid red; */
+  align-self: center;
   height: 100vh;
 }
 body {
   margin: 0;
+}
+
+.custom-border {
+  border: 1px solid red;
 }

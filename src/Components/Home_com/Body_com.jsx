@@ -36,7 +36,7 @@ const Body_com = () => {
       <div className="frame-1  flex flex-col gap-7  ">
         <div className="flex px-3 justify-between h-12 items-center bg-gradient-to-r from-[#FF7D29] to-[#FFBF78] text-white">
           <TiDeleteOutline className="w-[30px] h-[30px]" />
-          <p className="font-bold text-[24px]">
+          <p className="font-bold text-[12px] md:text-[16px] lg:text-[20px] text-center">
             B2B بازار: الارتقاء بمشروعك من خلال حلول الشراء بالجملة الشاملة بين
             الشركات
           </p>

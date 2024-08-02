@@ -1,14 +1,14 @@
 const Footer_com = () => {
   return (
-    <footer className="  mt-16">
-      <div className="main_footer flex justify-between  py-7  ">
+    <footer className="mt-16 md:mt-8  ">
+      <div className="main_footer  flex flex-col items-center md:flex-row md:justify-between py-7 md:gap-3">
         <div className="download app  flex flex-col gap-2 text-right">
           <div>
-            <h3 className="font-semibold  gap-2 flex flex-col">
+            <h3 className="font-semibold gap-2 flex flex-col">
               <h2 className="font-extrabold text-xl">حمل تطبيقنا على</h2>
               حمل تطبيق بازار على جوالك واطلب بضغطة زر
             </h3>
-            <div className="flex items-center">
+            <div className="sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row gap-1 items-center">
               <img className="" src="appstore-download-btn 2.png" alt="" />
               <img className="" src="appstore-download-btn 1.png" alt="" />
             </div>
@@ -20,7 +20,11 @@ const Footer_com = () => {
             </p>
             <div className="gap-3 flex">
               <button className="p-3 bg-[#FF7D29] rounded-xl">إشترك</button>
-              <input type="text" placeholder="بريدك الإلكتروني" />
+              <input
+                className="w-full placeholder:text-right outline-none"
+                type="text"
+                placeholder="بريدك الإلكتروني"
+              />
             </div>
           </div>
         </div>
@@ -48,7 +52,7 @@ const Footer_com = () => {
           <p>حسابي</p>
           <p>تسجيل الدخول</p>
         </div>
-        <div className="text-right flex flex-col gap-4 ">
+        <div className=" text-right flex flex-col gap-4 ">
           <div>
             <img src="Beyond Logo 1.png" alt="" />
           </div>
@@ -60,18 +64,42 @@ const Footer_com = () => {
           </div>
           <div className="flex flex-col gap-4">
             <h2 className="font-extrabold text-xl">إشترك عندنا</h2>
-            <div className="flex justify-between">
-              <img src="Rectangle 228.png" alt="" />
-              <img src="Rectangle 229.png" alt="" />
-              <img src="Rectangle 230.png" alt="" />
-              <img src="Rectangle 231.png" alt="" />
-              <img src="Rectangle 232.png" alt="" />
-              <img src="Rectangle 233.png" alt="" />
+            <div className="flex flex-wrap justify-center gap-2">
+              <img
+                className="w-16 h-16 md:w-6 md:h-6"
+                src="Rectangle 228.png"
+                alt=""
+              />
+              <img
+                className="w-16 h-16 md:w-6 md:h-6"
+                src="Rectangle 229.png"
+                alt=""
+              />
+              <img
+                className="w-16 h-16 md:w-6 md:h-6"
+                src="Rectangle 230.png"
+                alt=""
+              />
+              <img
+                className="w-16 h-16 md:w-6 md:h-6"
+                src="Rectangle 231.png"
+                alt=""
+              />
+              <img
+                className="w-16 h-16 md:w-6 md:h-6"
+                src="Rectangle 232.png"
+                alt=""
+              />
+              <img
+                className="w-16 h-16 md:w-6 md:h-6"
+                src="Rectangle 233.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
-      <div className="low_footer text-xl  pb-2 gap-2 align-bottom flex">
+      <div className="low_footer text-xl flex justify-center items-center  pb-2 gap-2">
         <p className="text-[#FF7D29] font-bold">BAZZAR </p> @2024 CREATED BY
         <p className="text-black font-bold">APPLAI TECH</p>
       </div>

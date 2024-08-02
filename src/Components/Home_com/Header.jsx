@@ -4,47 +4,47 @@ import { RiUser3Line } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <div className=" justify-between items-center w-full flex h-20  align-middle ">
-      <div className="flex gap-3  justify-between max-w-[496px] flex-1  items-center align-middle">
-        <div>
-          <button className=" w-48 h-12 bg-gradient-to-r from-[#FF7D29] to-[#FFBF78] rounded-full">
-            تسجيل دخول
-          </button>
-        </div>
-        <div className="w-72 h-8 flex justify-between items-center">
-          <div className="flex gap-1 items-center align-middle  w-16 h-8">
-            <img className="w-6 h-6" src="\Ellipse 2.png" alt="" />
-            AR
+    <header className="flex justify-between  items-center w-full h-16 p-4 md:p-6">
+      <div className="flex flex-col md:flex-row flex-1 items-center gap-3 md:gap-5">
+        <button className="w-full md:w-auto bg-gradient-to-r from-[#FF7D29] to-[#FFBF78] rounded-full py-2 md:py-3 px-4 md:px-6 text-white">
+          تسجيل دخول
+        </button>
+        <div className="flex items-center gap-3 md:gap-5">
+          <div className="flex items-center gap-1">
+            <img
+              className="w-6 h-6 md:w-8 md:h-8"
+              src="\Ellipse 2.png"
+              alt="Language Icon"
+            />
+            <span>AR</span>
           </div>
-          <div>
-            <RiUser3Line className="w-12 h-8" />
+          <RiUser3Line className="w-6 h-6 md:w-8 md:h-8" />
+          <div className="flex items-center">
+            <CiShoppingBasket className="w-6 h-6 md:w-8 md:h-8" />
+            <p className="text-lg md:text-xl">0</p>
           </div>
           <div className="flex items-center">
-            <CiShoppingBasket className="w-12 h-8" />
-            <p className="text-xl">0</p>
-          </div>
-          <div className="flex items-center">
-            <FaRegHeart className="w-12 h-8" />
-            <p className="text-xl">0</p>
+            <FaRegHeart className="w-6 h-6 md:w-8 md:h-8" />
+            <p className="text-lg md:text-xl">0</p>
           </div>
         </div>
       </div>
-      <div className="flex  gap-9">
-        <div className="flex items-center rounded-md gap-5 ">
+      <div className="flex items-center gap-3 md:gap-9">
+        <div className="flex items-center gap-2 md:gap-5 rounded-md">
           <input
-            className="  py-3 placeholder:text-lg outline-none placeholder:overflow-hidden"
+            className="w-full md:w-80 py-2 md:py-3 placeholder:text-sm md:placeholder:lg outline-none"
             type="text"
             placeholder="ابحث في أكثر من 5,000,000 منتج!"
           />
-          <CiSearch className="w-8 h-8" />
+          <CiSearch className="w-6 h-6 md:w-8 md:h-8" />
         </div>
         <img
-          className="w-[236px]  h-16 flex "
+          className="w-24 md:w-[236px] h-12 md:h-16"
           src="\Beyond Logo 1.png"
-          alt=""
+          alt="Logo"
         />
       </div>
-    </div>
+    </header>
   );
 };
 

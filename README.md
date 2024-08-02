@@ -1,6 +1,6 @@
 # E-Commerce Home Page 🌐
 
-![E-Commerce]("Home Page Blocs.png")
+![E-Commerce](public/Home_Page.png)
 
 - **Responsive Design** 📱: Optimized for all devices, ensuring a seamless shopping experience on desktops, tablets, and smartphones.
 - **Arabic Language Support** 🌍: Fully supports Arabic text and right-to-left (RTL) layout for a native user experience.

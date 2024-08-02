@@ -1,8 +1,8 @@
-# React + Vite
+# E-Commerce Home Page 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![E-Commerce](public\Home Page Blocs.png)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design** 📱: Optimized for all devices, ensuring a seamless shopping experience on desktops, tablets, and smartphones.
+- **Arabic Language Support** 🌍: Fully supports Arabic text and right-to-left (RTL) layout for a native user experience.
+- **Modern UI/UX** 🎨: Clean, modern design with easy navigation and visually appealing elements.
+- **Product Showcase** 🛍️: Highlight featured products with high-quality images and brief descriptions.

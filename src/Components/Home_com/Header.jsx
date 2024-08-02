@@ -4,7 +4,7 @@ import { RiUser3Line } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <header className="flex justify-between  items-center w-full h-16 p-4 md:p-6">
+    <header className="flex justify-between  items-center w-full h-16 p-4 md:p-0">
       <div className="flex flex-col md:flex-row flex-1 items-center gap-3 md:gap-5">
         <button className="w-full md:w-auto bg-gradient-to-r from-[#FF7D29] to-[#FFBF78] rounded-full py-2 md:py-3 px-4 md:px-6 text-white">
           تسجيل دخول

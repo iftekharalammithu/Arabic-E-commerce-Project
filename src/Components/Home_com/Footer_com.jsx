@@ -64,34 +64,34 @@ const Footer_com = () => {
           </div>
           <div className="flex flex-col gap-4">
             <h2 className="font-extrabold text-xl">إشترك عندنا</h2>
-            <div className="flex flex-wrap justify-center gap-2">
+            <div className="flex flex-wrap lg:justify-between justify-center gap-2">
               <img
-                className="w-16 h-16 md:w-6 md:h-6"
+                className="w-8 h-8 md:w-9 md:h-9 "
                 src="Rectangle 228.png"
                 alt=""
               />
               <img
-                className="w-16 h-16 md:w-6 md:h-6"
+                className="w-8 h-8 md:w-9 md:h-9"
                 src="Rectangle 229.png"
                 alt=""
               />
               <img
-                className="w-16 h-16 md:w-6 md:h-6"
+                className="w-8 h-8 md:w-9 md:h-9"
                 src="Rectangle 230.png"
                 alt=""
               />
               <img
-                className="w-16 h-16 md:w-6 md:h-6"
+                className="w-8 h-8 md:w-9 md:h-9"
                 src="Rectangle 231.png"
                 alt=""
               />
               <img
-                className="w-16 h-16 md:w-6 md:h-6"
+                className="w-8 h-8 md:w-9 md:h-9"
                 src="Rectangle 232.png"
                 alt=""
               />
               <img
-                className="w-16 h-16 md:w-6 md:h-6"
+                className="w-8 h-8 md:w-9 md:h-9"
                 src="Rectangle 233.png"
                 alt=""
               />
